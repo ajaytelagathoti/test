@@ -1,0 +1,189 @@
+/*body {background-color : #ededed; font-family : "Open Sans", sans-serif;}*/
+
+/*h2 { color: white; }*/
+/*h3 { color: red; }*/
+/*h1 {padding: 40px; text-align: center; font-size: 1.5em;}*/
+
+li a {text-decoration : none; color : #2d2f31;}
+
+/*w3-padding-large{
+  width: 100%;
+}*/
+
+.ab{
+  color: darkblue;
+  font-family: Times New Roman;
+  font-size:20px ;
+}
+.ac {
+  color: darkgreen;
+  font-family: Times New Roman;
+  font-size:20px ;
+}
+/*nav {
+  width : 1000px; 
+  background: white;
+  margin : 40px auto; 
+}*/
+.texts li{
+  text-align: left;
+}
+
+.new {
+  padding : 30px;
+  background : #2d2f31; 
+  color : white;
+  font-size : 1.2em;
+  font-variant : small-caps;
+  cursor : pointer;
+  display: block;
+}
+
+.new::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+.slide {
+  clear:both;
+  width:100%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+}
+
+.slide li {padding : auto;}
+.slide tr {padding : auto;}
+
+#touch {position: absolute; opacity: 0; height: 0px;}    
+
+#touch:checked + .slide {height: auto;} 
+
+#touch1 {position: absolute; opacity: 0; height: 0px;}    
+
+#touch1:checked + .slide {height: auto;}
+
+#touch2 {position: absolute; opacity: 0; height: 0px;}    
+
+#touch2:checked + .slide {height: auto;}
+
+#touch3 {position: absolute; opacity: 0; height: 0px;}    
+
+#touch3:checked + .slide {height: auto;}
+
+#touch4 {position: absolute; opacity: 0; height: 0px;}    
+
+#touch4:checked + .slide {height: auto;}
+
+#touch5 {position: absolute; opacity: 0; height: 0px;}    
+
+#touch5:checked + .slide {height: auto;}
+
+#touch6 {position: absolute; opacity: 0; height: 0px;}    
+
+#touch6:checked + .slide {height: auto;}
+
+#touch7 {position: absolute; opacity: 0; height: 0px;}    
+
+#touch7:checked + .slide {height: auto;}
+
+#touch8 {position: absolute; opacity: 0; height: 0px;}    
+
+#touch8:checked + .slide {height: auto;}
+
+#touch9 {position: absolute; opacity: 0; height: 0px;}    
+
+#touch9:checked + .slide {height: auto;}
+
+#touch10 {position: absolute; opacity: 0; height: 0px;}    
+
+#touch10:checked + .slide {height: auto;}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.city {
+  background-color: slateblue;
+  color: white;
+  border: 2px solid black;
+   margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 70%;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav {
+  background-color: white;
+}
+img{
+ border-radius: 50%;
+}
+
+.pic{
+  border-radius: 8px;
+}
+
+.links{
+   text-align: center;
+   color: white;
+}
+span{
+    padding-right: 10px;
+    text-align: center;
+}
+.contact-list p{
+}
+.email-contact{
+    width:80%;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.contact{
+  
+  background-color: black;
+  padding: 50px;
+  
+  font-size: 15px;
+  width: 100%;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other 
+@media (max-width: 768px) {
+  .column {
+    width: 100%;
+  }
+  .w3-sidebar{
+    width: 100px;
+  }
+  navbar-mobile{
+    width: 100px;
+  }
+}*/
